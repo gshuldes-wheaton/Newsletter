@@ -1,2 +1,0 @@
-# Newsletter
-Newsletters for WCSD
