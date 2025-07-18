@@ -1,0 +1,119 @@
+<style type="text/css">
+		@font-face {
+			font-family: 'Wheaton Athletics';
+			src: 	url('Fonts/wheatonathletics-webfont.woff2') format('woff2'),
+				url('Fonts/wheatonathletics-webfont.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;}
+		
+		body {
+			font-family: Georgia;
+			color: #000000;
+			background-color: #ffffff;}
+
+		.page { border: 1px solid #665544;
+			background-color: #4169e1;
+			padding: 10px;}
+
+		.section {	
+			border: 1px solid #665544;
+			background-color:#ffffff;
+			padding: 10px}
+		
+		#intro, #intro2, #renovation, #schedule, #fallfest, #spotlight, #conclusion {
+			border: 1px solid black;
+			border_radius: 10px;
+			padding: 10px;}
+
+		h1 {	font-family: 'Wheaton Athletics', Georgia;
+			text-align: center;
+			color: #4169E1;
+			font-size: 3.5em;}
+		
+		h2 {	text-align: center;
+			color: #4169E1;}
+
+		p {	text-align: center;}
+
+		ul {	display: table;
+			margin: 0 auto;}
+
+		table, tr, th {
+				border: 1px solid #000000;}
+
+		table.center {	margin-left: auto;
+				margin-right: auto;}
+
+		img.center {	max-width: 350px;
+				width: 100%;
+				height: auto;
+				display: block;
+				margin-left: auto;
+				margin-right: auto;}
+</style>
+<div class="page">
+<div class="section" id="intro">
+<h1 id="top">WHEATON COLLEGE SWIM AND DIVE NEWSLETTER</h1>
+<img alt="logo" class="center" 
+src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Wheaton_%28Massachusetts%29_Lyons_logo.svg/800px-Wheaton_%28Massachusetts%29_Lyons_logo.svg.png" title="logo" />
+</div>
+&nbsp;
+
+<div class="section" id="intro2">
+<p>Welcome to the 2025-2026 Academic Year and Season!
+<br />
+<br />
+We are incredibly excited to kickstart our monthly newsletter once again, as we keep you up to date with WCSD and all of the exciting happenings that go on during the year! If there is a contact that you would prefer for this message to be sent to, please let us know so that we can make that change!
+</p>
+
+<h2>Table of Contents</h2>
+
+<p>Below are the following sections for you to be able to view.</p>
+
+<ul>
+	<li>Renovations!!!</li>
+	<li>Meet Schedule</li>
+	<li>Fall Fest and Alumni Meet</li>
+	<li>Alumni Spotlight</li>
+</ul>
+
+<p>&nbsp;</p>
+</div>
+&nbsp;
+
+<div class="section" id="renovation">
+<h2>Renovations!!</h2>
+<p>We would be remiss to begin anywhere but with the completion of our renovations! Beginning at the end of the last Academic Year and stretching into mid-July, Balfour Natatorium underwent some incredibly exciting renovations including, but not limited to; refurnished walls and benches, thorough pool cleaning, thorough deck and tile cleaning, and perhaps the most exciting part - a brand new bulkhead! Over the course of the next year, more renovations will be completed to continue to improve the overall health of our pool, as well as increase the standard of quality for those that use it!</p>
+
+</div>
+&nbsp;
+
+<div class="section" id="schedule">
+<h2>Meet Schedule</h2>
+
+<p>See below for the Meet Schedule for our upcoming season!</p>
+</div>
+&nbsp;
+
+<div class="section" id="fallfest">
+<h2>Fall Fest and Alumni Meet</h2>
+
+<p>We are happy to introduce and announce the return of the Alumni Meet this year as a part of the Wheaton College Fall Fest! Our team as it is now is a culmination of all of the athletes that competed as a Lyon before - and we want to see you in the pool again! On October 4th, at 11am, we will be hosting our Alumni Meet with a reception to be held afterwards.</p>
+</div>
+&nbsp;
+
+<div class="section" id="spotlight">
+<h2 id="alumni_spotlight">Alumni Spotlight</h2>
+
+<p>Continuing our theme of recognizing our history as well as looking forward to the future, we want to provide the opportunity for Alumni and Supporters of the Wheaton Lyons to have a spotlight for the incredible things that they do in the world or for Wheaton.</p>
+&nbsp;
+
+<p>We want to hear from you! Let us know about anyone in the Wheaton Family that are making waves in their life outside of Wheaton, or are doing something that you feel deserves to be recognized!</p>
+
+</div>
+&nbsp;
+
+<div class="section" id="conclusion">
+<p>Thank you for your continued support of our program, and we look forward to seeing you as we continue throughout the year. GO LYONS!!!</p>
+</div>
+</div>
