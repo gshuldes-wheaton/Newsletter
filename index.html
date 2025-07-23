@@ -26,6 +26,49 @@
 		.image-row img {
 			max-width: 30%;
 			height: auto;}
+
+		.carousel-container {
+			perspective: 1000px;
+			max-width: 33%;
+			margin: 0 auto: 20px;
+			position: relative;}
+		.carousel {
+			width: 100%;
+			position: absolute;
+			transform-style: preserve-3d;
+			transition: transform 1s;}
+		.carousel img {
+			position: absolute;
+			width: 33%;
+			top: 0;
+			left: 75px;
+			border-radius: 10px;
+			box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+			transition: transform 0.5s;}
+
+	.carousel img:nth-child(1) { transform: rotateY(0deg) translateZ(500px); }
+	.carousel img:nth-child(2) { transform: rotateY(120deg) translateZ(500px); }
+	.carousel img:nth-child(3) { transform: rotateY(240deg) translateZ(500px); }
+
+	.button-container {
+		display: flex;
+		justify-content: center;
+		gap: 20px;
+		margin-bottom: 20px;}
+
+	.button-container button {
+		padding: 10px 20px;
+		background-color: #4169E1;
+		color: white;
+		border: none;
+		border-radius: 8px;
+		font-size: 1rem;
+		cursor: pointer;
+		transition: background 0.3s;}
+
+.button-container button:hover {
+	background-color: #314fad;
+}
 		
 		#intro, #intro2, #renovation, #schedule, #fallfest, #spotlight, #conclusion {
 			border: 1px solid black;
@@ -90,12 +133,18 @@ We are incredibly excited to kickstart our monthly newsletter once again, as we 
 &nbsp;
 
 <div class="section" id="renovation">
-<h2>RENOVATIONS!!</h2>
+<h2>RENOVATIONS!!!</h2>
 <p>We would be remiss to begin anywhere but with the completion of our renovations! Beginning at the end of the last Academic Year and stretching into mid-July, Balfour Natatorium underwent some incredibly exciting renovations including, but not limited to; refurnished walls and benches, thorough pool cleaning, thorough deck and tile cleaning, and perhaps the most exciting parts - water agitators for diving, and a brand new bulkhead! Over the course of the next year, more renovations will be completed to continue to improve the overall health of our pool, as well as increase the standard of quality for those that use it!</p>
-<div class="image-row">
-	<img alt="walls" src="Images/August/Blue Walls.JPEG" />
-	<img alt="bulkhead" src="Images/August/New Bulkhead Photo.JPG" />
-	<img alt="agitators" src="Images/August/Water Agitators.JPEG" />
+<div class="carousel-container">
+	<div class="carousel" id="carousel">
+		<img src="Images/Blue Walls.JPEG" />
+		<img src="Images/New Bulkhead Photo.JPG" />
+		<img src="Images/Water Agitators.JPEG" />
+	</div>
+</div>
+<div class="button container">
+	<button onclick="rotateCarousel(-1)">Previous</button>
+	<button onclick="rotateCarousel(1)">Previous</button>
 </div>
 </div>
 &nbsp;
@@ -129,3 +178,12 @@ We are incredibly excited to kickstart our monthly newsletter once again, as we 
 <p>Thank you for your continued support of our program, and we look forward to seeing you as we continue throughout the year. GO LYONS!!!</p>
 </div>
 </div>
+
+<script>
+	let angle = 0;
+	function rotateCarousel(direction) {
+		angle += direction * 120; // 3 images = 360 / 3 = 120 degrees per step
+		document.getElementById("carousel").style.transform = `rotateY(${angle}deg)`;
+	}
+</script>
+</body>
