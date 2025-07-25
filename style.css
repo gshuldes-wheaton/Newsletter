@@ -1,1 +1,61 @@
+<style type="text/css">
+		@font-face {
+			font-family: 'Wheaton Athletics';
+			src: 	url('wheatonathletics-webfont.woff2') format('woff2'),
+				url('wheatonathletics-webfont.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;}
+		
+		body {
+			font-family: Georgia;
+			color: #000000;
+			background-color: #ffffff;}
 
+		.page { border: 1px solid #665544;
+			background-color: #4169e1;
+			padding: 10px;}
+
+		.section {	
+			border: 1px solid #665544;
+			background-color:#ffffff;
+			padding: 10px}
+		.image-row {
+			display: flex;
+			justify-content: center;
+			gap: 10px;}
+		.image-row img {
+			max-width: 30%;
+			height: auto;}
+		
+		#intro, #intro2, #renovation, #schedule, #fallfest, #spotlight, #conclusion {
+			border: 1px solid black;
+			border_radius: 10px;
+			padding: 10px;}
+
+		h1 {	font-family: 'Wheaton Athletics', Georgia;
+			text-align: center;
+			color: #4169E1;
+			font-size: 3.5em;}
+		
+		h2 {	font-family: 'Wheaton Athletics', Georgia;
+			text-align: center;
+			color: #4169E1;}
+
+		p {	text-align: center;}
+
+		ul {	display: table;
+			margin: 0 auto;}
+
+		table, tr, th {
+				border: 1px solid #000000;}
+
+		table.center {	margin-left: auto;
+				margin-right: auto;}
+
+		img.center {	max-width: 350px;
+				width: 100%;
+				height: auto;
+				display: block;
+				margin-left: auto;
+				margin-right: auto;}
+</style>
